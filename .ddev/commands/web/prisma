@@ -1,0 +1,7 @@
+#!/bin/bash
+## Description: Run pnpm prisma inside the web container
+## Usage: primsa [flags] [args]
+## Example: "ddev prisma db push" or "ddev prisma migrate dev"
+## ExecRaw: true
+## HostWorkingDir: true
+pnpx prisma "$@"

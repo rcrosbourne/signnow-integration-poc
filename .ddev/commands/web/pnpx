@@ -1,0 +1,7 @@
+#!/bin/bash
+## Description: Run pnpx inside the web container
+## Usage: pnpx [flags] [args]
+## Example: "ddev pnpx create-next-app" 
+## ExecRaw: true
+## HostWorkingDir: true
+pnpx "$@"
